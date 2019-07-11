@@ -2,10 +2,10 @@
 let money, time, key;
 
 function start() {
-  money = +prompt('You buget?');
+  money = +prompt('Бюджет?');
   time = prompt('Enter date in format YYYY-MM-DD');
   while (isNaN(money) || money == '' || money == null) {
-    money = +prompt('You buget?');
+    money = +prompt('Бюджет?');
   }
 }
 start();
